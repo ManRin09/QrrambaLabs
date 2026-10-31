@@ -2,7 +2,7 @@ const TeamSection = () => {
   const team = [
     {
       name: 'Ivan Mejia',
-      role: 'Desarrollador fullstack en .Net y Angular',
+      role: 'Full Stack Dev | C# • .NET • Node.js • Next.js • Angular • React',
       image: '/ivan-mejia.png',
     },
     {
