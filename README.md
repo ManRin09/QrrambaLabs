@@ -1,16 +1,76 @@
-# React + Vite
+# Qrramba Labs
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page de **Qrramba Labs**, construida con React y Vite.
 
-Currently, two official plugins are available:
+🔗 **Demo en vivo:** [qrramba-labs.vercel.app](https://qrramba-labs.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev): interfaz de usuario
+- [Vite](https://vite.dev): entorno de desarrollo y empaquetado rápido con HMR
+- [Oxlint](https://oxc.rs): análisis estático del código
+- [Vercel](https://vercel.com): despliegue
 
-## Expanding the Oxlint configuration
+## Requisitos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- [Node.js](https://nodejs.org) (versión LTS recomendada)
+- npm (viene incluido con Node.js)
+
+## Primeros pasos
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/ManRin09/QrrambaLabs.git
+   cd QrrambaLabs
+   ```
+
+2. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+   Abre la dirección que aparece en la terminal (normalmente `http://localhost:5173`).
+
+## Scripts disponibles
+
+| Comando | Descripción |
+| --- | --- |
+| `npm run dev` | Inicia el servidor de desarrollo con recarga en caliente |
+| `npm run build` | Genera la versión optimizada para producción |
+| `npm run preview` | Sirve localmente la versión de producción |
+
+## Estructura del proyecto
+
+```text
+QrrambaLabs/
+├── public/          # Archivos estáticos
+├── src/             # Código fuente de la aplicación
+├── index.html       # Punto de entrada HTML
+├── vite.config.js   # Configuración de Vite
+└── .oxlintrc.json   # Reglas de Oxlint
+```
+
+## Despliegue
+
+El sitio se despliega en Vercel. Para publicar tu propia copia, importa el repositorio en Vercel: detecta Vite automáticamente y usa `npm run build` como comando de compilación.
+
+## Autores
+
+- [@ManRin09](https://github.com/ManRin09)
+- [@Nuz777](https://github.com/Nuz777)
+
+## Contribuir
+
+1. Crea una rama a partir de `main`.
+2. Haz tus cambios y confirma con un mensaje claro.
+3. Abre un pull request describiendo qué cambió y por qué.
